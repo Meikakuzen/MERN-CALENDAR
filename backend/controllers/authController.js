@@ -94,6 +94,7 @@ export const renovarToken = async(req,res)=>{
    
     res.json({
         ok: true,
-        token
+        token,
+        uid, nombre
     })
 }
